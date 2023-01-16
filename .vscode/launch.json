@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Spring Boot-TravelApplication<travel>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.homework.travel.TravelApplication",
+            "projectName": "travel",
+            "args": "--spring.profiles.active=development",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
